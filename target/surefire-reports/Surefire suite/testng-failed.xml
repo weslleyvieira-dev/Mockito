@@ -5,7 +5,7 @@
     <classes>
       <class name="org.test.PokemonControllerTest">
         <methods>
-          <include name="testGetPokemonData_Failure"/>
+          <include name="testGetPokemonData_Success"/>
         </methods>
       </class> <!-- org.test.PokemonControllerTest -->
     </classes>

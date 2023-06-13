@@ -24,7 +24,7 @@ public class PokemonApiClient {
             scanner.close();
             return response.toString();
         } else {
-            throw new IOException("Error retrieving Pokemon data. Response code: " + responseCode);
+            throw new IOException("Error " + responseCode);
         }
     }
 }

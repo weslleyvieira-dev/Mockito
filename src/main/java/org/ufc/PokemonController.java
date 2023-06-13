@@ -10,7 +10,7 @@ public class PokemonController {
         this.pokemonApiClient = pokemonApiClient;
     }
 
-    public void getPokemonData(String pokemonName) {
+    public String getPokemonData(String pokemonName) {
         try {
             String data = pokemonApiClient.getPokemonData(pokemonName);
             System.out.println(data);
@@ -19,5 +19,6 @@ public class PokemonController {
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
+        return pokemonName;
     }
 }

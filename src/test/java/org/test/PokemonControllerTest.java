@@ -30,7 +30,6 @@ public class PokemonControllerTest {
         // Verificação do comportamento esperado
         verify(pokemonApiClient, times(1)).getPokemonData("ditto");
         // Faça outras verificações necessárias para os dados obtidos
-
     }
 
     @Test
